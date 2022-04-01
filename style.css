@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+a:visited{  /*была посещена */
+    color: rgb(196, 31, 72);    
+}
+
+a:hover{ /*наведение*/
+    color: orangered;
+    }
+
+a:active{   /*клинули и держим*/
+    color: greenyellow;
+}
+
+
+.btn {
+    background: rgb(105, 54, 82);
+    padding: 15px;
+    color:rgb(244, 244, 245);
+    border: solid;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 35%;
+    width: 30%;
+    margin-top: 15px;
+}
+
+
+ .btn:hover {
+        background: rgb(226, 120, 200);
+        opacity: 0.5;
+        }
+
+body {
+   /* font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    font-weight: normal; /* жирность. Значения: bold, normal, lighter,bolder, 100, 400 (это нормал), 900 */  
+    font: 20px 'Poppins', sans-serif normal;
+   /* text-decoration: underline;  /* Подчеркивание, зачеркивание, надчеркивание : underline, line-through, none, wavy overline lime, solid underline purple 4px, blink */
+   /* font-style: italic; /* начертание . Значени: italic, normol, cursive */
+   letter-spacing: 1px; /*интервал между буквами */
+   word-spacing: 5px; /*интервал между словами */
+   background: Linen;
+    color: rgb(6, 6, 8);
+}
+
+
+.contact {
+    border-radius: 10px;
+    /* text-align: center; */
+    margin-bottom: 20px ;
+    background: #f1c2dc6b;
+    border-left: 5px solid rgb(196, 78, 117);
+    padding-left: 15px;
+}
+
+.contact label {
+display: block;
+color: #3e3e41;
+font-size: 18px;
+text-align: left;
+}
+
+.contact input, .contact textarea  {
+    /* display: block; */
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    background: transparent;   /*прозрачность поля*/
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.contact form {
+    padding-bottom: 15px;
+    
+    }
+
+.contaktmeh {
+    text-align: center;
+    font-size: 150%;
+    /* text-decoration: underline ; */
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding-top: 20px;
+    bot
+    
+}
+
+.info {
+    /* background-color: aquamarine; */
+    text-align: center;
+    border:4px dotted black;
+    /* background : #f0ddbef5; */
+    background: rgba(245, 245, 220, 0.438);
+    margin-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 5px;
+    display: flex;
+}
+
+@media(max-width: 650px) {
+    .info {
+        border:1px solid black;
+        margin-bottom: 5px;
+        padding-top: 10px;
+        display: inline-block;
+        font-size: smaller;
+    }
+
+}
+
+
+.info-text {
+
+    margin-left: 20px;
+}
+
+.info-text p {
+
+    margin-top: 5px;
+}
+
+.info-text h4 {
+
+    margin-bottom: 5px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder  {
+    color: rgba(129, 134, 132, 0.637);
+}
+
+.foto img {
+
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0?3);
+    border-radius: 30px;
+    margin-left: 20px;
+    
+}
+
+
+.hobby {
+    text-decoration: underline; 
+    color: rgb(10, 44, 20); 
+   
+    text-align: center;  
+    font-size: larger;
+}
+
+h1 {
+color: rgb(20, 121, 161);
+
+}
+
+.hobbycard {
+    background: rgba(230, 178, 148, 0.473);
+    border: 1px;
+    padding: 15px;  
+    border-radius: 10px;
+    border-left: 5px solid darkred;
+    margin-bottom: 15px;
+}
+
+.hobbylist li:hover {
+    color: rgb(41, 206, 49);
+}
+
+.hobbylist li {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.tablework {
+    width: 100%;
+}
+
+.tablework td {
+ padding-bottom: 10px;
+}
+
+.tablework td:nth-child(1) {
+color: rgb(92, 89, 89);
+}
+
+.tablework td:nth-child(1) {
+ color: rgb(92, 89, 89);
+}
+
+.tablework td:nth-child(2) {
+ color: rgb(23, 100, 7);
+ font-weight: bolder;
+}
+
+.tablework td:nth-child(3) {
+    font-weight: bolder;
+}
+
+/* table {
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+} */
+
+.textandemail .form-group{
+display: inline-block;
+width: 50%;
+margin-right: 15px;
+}
+
+.textandemail{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+@media(max-width: 650px) {
+    .textandemail {
+        display: block;
+        font-size: smaller;
+    }
+
+}
+
+
+.workcard {
+    background:  rgba(199, 233, 186, 0.582);
+    border: 1px;
+    padding: 15px;  
+    border-radius: 10px;
+    border-left: 5px solid rgba(12, 201, 44, 0.897);
+    margin-bottom: 15px;  
+    /* width: 50%; */
+    /* margin: auto; */
+}
+
+
+
+
+
+
+
+
+ 
+
+  
